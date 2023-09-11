@@ -1,6 +1,7 @@
-{
+[{
   "include": "~/.config/hypr/waybar/modules",
   "layer": "top",
+  "output": "DP-3",
   //"mode": "dock",
   "exclusive": true,
   "passthrough": false,
@@ -13,4 +14,19 @@
 
   "modules-left": ["wlr/workspaces", "cpu", "memory", "disk"],
   "modules-right": ["custom/cycle_wall", "custom/updater", "pulseaudio", "network", "clock", "custom/weather", "tray", "custom/power"],
-}
+}, {
+  "include": "~/.config/hypr/waybar/modules",
+  "layer": "top",
+  "output": "DP-2",
+  //"mode": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "position": "top",
+  "spacing": 5,
+  "fixed-center": true,
+  "ipc": true,
+  "margin-left": 0,
+  "margin-right": 0,
+
+  "modules-left": ["wlr/workspaces"],
+}]
