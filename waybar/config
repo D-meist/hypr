@@ -29,4 +29,5 @@
   "margin-right": 0,
 
   "modules-left": ["wlr/workspaces"],
+  "modules-right": ["clock"],
 }]
